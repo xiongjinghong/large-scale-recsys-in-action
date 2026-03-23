@@ -5,6 +5,6 @@ nohup python -m lib.main.main --model_name=model_00001 \
   --decay_rate=0.9 \
   --preview=true \
   --start=20220101 \
-  --end=20220131 \
+  --end=20220101  \
   --batch_size=512 \
   --max_steps=1000 > model_00001.log 2>&1 &
